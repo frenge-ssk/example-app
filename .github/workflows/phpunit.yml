@@ -46,5 +46,5 @@ jobs:
          run: php artisan key:generate --env testing
        - name: Set hostname
          run: sudo echo "127.0.0.1 mysql.test" | sudo tee -a /etc/hosts
-       - name: Run test suite
-         run: composer run-script test
+       - name: Execute tests (Unit and Feature tests) via PHPUnit
+         run: vendor/bin/pest
