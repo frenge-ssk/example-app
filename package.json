@@ -10,7 +10,6 @@
         "production": "mix --production",
         "heroku-postbuild": "npm run production",
         "test": "vendor/bin/phpunit"
-
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.4.0",
