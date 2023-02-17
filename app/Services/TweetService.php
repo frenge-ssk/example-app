@@ -47,7 +47,7 @@ class TweetService
             foreach ($images as $image) {
                 $name = $this->imageManager->save($image);
                 $imageModel = new Image();
-                $imageModel->name = $image->hashName();
+                $imageModel->name = $name;
                 $imageModel->save();
                 $tweet->images()->attach($imageModel->id);
             }
