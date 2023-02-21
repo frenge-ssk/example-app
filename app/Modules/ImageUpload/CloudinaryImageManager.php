@@ -30,3 +30,4 @@ class CloudinaryImageManager implements ImageManagerInterface
         $this->cloudinary->uploadApi()->destroy($name);
     }
 }
+ 
