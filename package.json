@@ -9,9 +9,7 @@
         "prod": "npm run production",
         "production": "mix --production",
         "heroku-postbuild": "npm run production",
-        "test": "vendor/bin/phpunit",
-        "dev": "vite",
-        "build": "vite build"
+        "test": "vendor/bin/phpunit"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.4.0",
@@ -20,11 +18,9 @@
         "autoprefixer": "10.4.5",
         "axios": "^0.25",
         "laravel-mix": "^6.0.49",
-        "laravel-vite-plugin": "^0.7.4",
         "lodash": "^4.17.19",
         "postcss": "^8.4.6",
         "postcss-import": "^14.0.2",
-        "tailwindcss": "^3.0.18",
-        "vite": "^4.1.3"
+        "tailwindcss": "^3.0.18"
     }
 }
