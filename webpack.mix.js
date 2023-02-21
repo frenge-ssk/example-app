@@ -17,3 +17,10 @@ mix.js('resources/js/app.js', 'public/js')
         require('tailwindcss'),
         require('autoprefixer'),
     ]).version();
+
+
+mix.webpackConfig({
+    stats: {
+         children: true
+    }
+});
