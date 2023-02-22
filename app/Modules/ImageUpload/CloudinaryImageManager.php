@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace App\Modules\ImageUpload;
 
-use Cloudinary\Cloudinary;
+use CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary;
 
 class CloudinaryImageManager implements ImageManagerInterface
 {
