@@ -5,7 +5,7 @@ namespace App\Providers;
 use App\Modules\ImageUpload\CloudinaryImageManager;
 use App\Modules\ImageUpload\ImageManagerInterface;
 use App\Modules\ImageUpload\LocalImageManager;
-use CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary;
+use Cloudinary\Cloudinary;
 use Illuminate\Support\ServiceProvider;
 
 
