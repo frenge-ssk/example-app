@@ -19,7 +19,7 @@ use App\Http\Controllers\Tweet\DeleteController;
 */
 
 Route::get('/', function () {
-    return view('tweet.index');
+    return view('welcome');
 });
 
 Route::get('/dashboard', function () {
